@@ -13,6 +13,7 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
+  base: '/component-showcase/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
