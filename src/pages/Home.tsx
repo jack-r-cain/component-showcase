@@ -17,7 +17,7 @@ export default function Home() {
       <Section className='py-20 md:py-32'>
         <Container className='text-center max-w-3xl mx-auto'>
           <h1 className='text-4xl md:text-6xl font-bold mb-6'>
-            Build with Components You Own
+            Work In Progress, Not Ready for Production
           </h1>
           <p className='text-lg md:text-xl text-neutral-600 mb-8 leading-relaxed'>
             A collection of beautifully designed, accessible React components

@@ -5,6 +5,7 @@ import Header from '@/components/layout/Header'
 import Main from '@/components/layout/Main'
 import Footer from '@/components/layout/Footer'
 import DocsLayout from '@/components/app/DocsLayout'
+import ScrollToTop from '@/components/app/ScrollToTop'
 import Home from './pages/Home'
 import GettingStarted from './pages/GettingStarted'
 import Installation from './pages/Installation'
@@ -13,6 +14,7 @@ import ComponentDemo from './pages/ComponentDemo'
 export default function App() {
   return (
     <Shell>
+      <ScrollToTop />
       <Header
         title='Cain UI'
         routes={[

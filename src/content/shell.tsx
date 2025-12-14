@@ -3,7 +3,7 @@ import Shell from '@/components/layout/Shell'
 
 export default function ShellDemo() {
   return (
-    <div className='space-y-12 py-4'>
+    <div className='space-y-8 md:space-y-12 px-2 md:px-0'>
       {/* Header */}
       <div>
         <h1 className='text-4xl font-bold mb-4'>Shell</h1>
